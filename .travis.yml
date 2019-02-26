@@ -1,3 +1,4 @@
+# test text
 language: node_js
 env:
 - SCRIPT=lint
