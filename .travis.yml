@@ -1,7 +1,8 @@
 language: node_js
-
 env:
-  - SCRIPT=lint
-  - SCRIPT=test
-
+- SCRIPT=lint
+- SCRIPT=test
 script: npm run $SCRIPT
+deploy:
+  api_key:
+    secure: iT8K9sWhDNnKk9rLVjRLkpekghMRUURz8Jztm+HR2LXdmezncHo+t7VrWGE7a0ecN/kWlOoO5jAwiACAjtoUqFR/c9+cuMxgeMozg6Vs1FfTxGGhFalCCVpVG3utHwCHIh1WrpVwCkocv+LdObAq2v/TVeKuKS38Pofgj5l0JRKLDZqS27s8EBpBEuBRnf5IXC72ZVubAxPIRBeEUdyt2soQrIK9ukXvoDQSLghTf42qrpyRX6L8wDkH+ltzfvCtKdc1lyB/AFrA25EeKVcP5b4X09pN6X0Bs9wAXgbxGS3cRbsMzwOOAZyngaD5bne/qEoidQJvxZxCEaPOgLUWQ2zyYoXg3XNohENmDMd6Y9R3gTGkYZ5JDyPZDiNw5yA7OJNcO/6XggmUWRJ0ZVT8JCLQ/ExmdJpksWjnzyk6BeKBTxNNZ5PZY0Vxn6YhdH8rd0HR65BPLw7mvTKugwCc+dKRhZgi7fd7bENZfUUmi8fPb2r3Tm2/E+QgochQCPnWtHqWPAd7chm67EaAk4xufDWSQWOgeCVv2P20TNuX0255mzURKZwGLXo5UyKwpJY5uHr0ldFNRWztvyZvyIf/Kw0Uua6J5CDwJCSDKwicmySjIxdN8Gr3LytlFMULhhZLr8a+SQSl1u+1nlm92LYbYntuLBNP5Dbf3wY0BuFl418=
